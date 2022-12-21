@@ -1,14 +1,23 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "modo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "install": "lerna bootstrap",
-    "dev": "lerna run dev"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "workspaces": [
-    "packages/*"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voloshynajelena/modo.git"
+  },
+  "author": "O.Voloshyna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voloshynajelena/modo/issues"
+  },
+  "homepage": "https://github.com/voloshynajelena/modo#readme",
   "devDependencies": {
-    "lerna": "^6.1.0"
+    "nx": "15.3.3",
+    "@nrwl/nx-cloud": "latest"
   }
 }
